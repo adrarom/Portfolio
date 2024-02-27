@@ -1,0 +1,82 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background: #161513;
+}
+div{
+  /*  border: 1px dotted #ff0000; */
+}
+header{
+    background: #222222;
+    color: rgb(255, 255, 255);
+    padding: 1em 25%;
+    /*border: 1px solid #ff0000;*/
+    display: flex;
+    justify-content: space-between;
+}
+.icon-logo {
+    margin: auto 0;
+   /* border: 1px solid #ff0000; */
+    font-size: 22px;
+    font-family: 'poppins', sans-serif;
+}
+ul{
+    list-style:none;
+    padding: 0;
+    /* border: 1px solid white; */ 
+    display: flex;
+    gap: 4em;
+}
+header ul li a {
+    transition: font-size 0.3s ease;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+}
+
+header ul li a:hover {
+    font-size: 14px;
+}
+main{
+    padding: 2em 4em;
+   /* border: 1px solid #ff0000; */
+}
+/* No styles applied */
+
+.main-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-text{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    margin: 2em 2em;
+}
+.main-text h1{
+    margin: 0;
+}
+.backgroundgradient{
+    background: linear-gradient(to right, #FF8660,60%, #9A33FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-text h3{
+    margin: 2em;
+    color: #ffffff;
+
+}
+.main-image img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.poppins {
+    font-family: 'poppins', sans-serif;
+}
