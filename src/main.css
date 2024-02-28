@@ -65,6 +65,12 @@ main{
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.bordergradient:hover{
+    border-radius: 50px; /*1*/
+  border: 2px solid transparent; /*2*/
+  background: linear-gradient(45deg,#FF8660,#9A33FF) border-box; /*3*/
+    transition: all 0.3s ease;
+}
 .main-text h3{
     margin: 2em;
     color: #ffffff;
