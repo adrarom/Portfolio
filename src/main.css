@@ -5,10 +5,7 @@
 body{
     background: #161513;
 }
-div{
-  /*  border: 1px dotted #ff0000; */
-}
-header{
+header,footer{
     background: #222222;
     color: rgb(255, 255, 255);
     padding: 1em 25%;
@@ -29,8 +26,8 @@ ul{
     display: flex;
     gap: 4em;
 }
-header ul li a {
-    transition: font-size 0.3s ease;
+header ul li a{
+    transition: all 0.3s ease;
     color: inherit;
     text-decoration: none;
     font-family: 'Plus Jakarta Sans', sans-serif;
