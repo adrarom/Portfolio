@@ -24,6 +24,20 @@
 ::after {
   --tw-content: '';
 }
+.sticky{
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  z-index: 3;
+}
+a:link{
+  color: inherit;
+  text-decoration: inherit;
+}
+html{
+  scroll-behavior: smooth;
+  z-index: 0;
+}
 
 /*
 1. Use a consistent sensible line-height in all browsers.

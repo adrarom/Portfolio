@@ -15,29 +15,26 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky">
         <div class="icon-logo"><strong>Adra.dev</strong></div>
         <nav>
             <ul>
-                <li class="Home-button">
-                    <a href="mailto:adrarom@gmail.com">HOME</a>
-                </li>
                 <li class="about-button">
-                    <a href="https://github.com/adrarom">ABOUT</a>
+                    <a href="#ABOUT">ABOUT</a>
                 </li>
                 <li class="projects-button">
-                    <a href="https://github.com/adrarom">PROJECTS</a>
+                    <a href="#PROJECTS">PROJECTS</a>
                 </li>
                 <li class="contact-button">
-                    <a href="https://github.com/adrarom">CONTACT</a>
+                    <a href="#CONTACT">CONTACT</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="flex flex-col justify-center items-center">
-        <section class="main-content container">
+    <main class="flex flex-col justify-center items-center" >
+        <section class="main-content container" id="ABOUT">
             <div class="main-image pt-14 pb-14">
-                <img class="md:shrink-0" src="images/juanjose.png" alt="Adrian">
+                <img class="md:shrink-0" src="images/20231121_154715.jpg" alt="Adrian">
             </div>
             <div class="main-text text-center">
                 <h1 class="text-8xl font-bold m-0 p-0 text-white">Hi! I'm Adrián,</h1>
@@ -74,7 +71,7 @@
             </div>
             </div>
         </section>
-        <section class="projects container">
+        <section class="projects container" id="PROJECTS">
             <div class="projects-title text-center">
                 <h1 class="text-3xl font-bold poppins text-orange-400 pt-12">PROJECTS</h1>
             </div>
@@ -83,11 +80,11 @@
                 <div class="project-card w-96 h-72">
                     <img class="rounded-t-lg w-96 object-cover h-48" src="images/project-200feet-image.jpeg"
                         alt="Unity">
-                    <div class="bg-slate-700 rounded-b-lg p-5 flex">
-                        <div>
+                    <div class="bg-slate-700 rounded-b-lg p-5 flex " href="https://www.therookies.co/projects/43579">
+                        <a href="https://www.therookies.co/projects/43579">
                             <h1 class="poppins text-xs text-gray-400">CLICK HERE TO VISIT</h1>
                             <p class="text-lg font-bold">200 FEET DOWN</p>
-                        </div>
+                        </a>
                         <div class="ml-auto self-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor" class="w-5 h-5">
@@ -101,10 +98,10 @@
                 <div class="project-card w-96 h-72">
                     <img class="rounded-t-lg w-96 object-cover h-48" src="images/VR-Project.jpeg" alt="Unity">
                     <div class="bg-slate-700 rounded-b-lg p-5 flex">
-                        <div>
+                        <a href="https://www.therookies.co/projects/44959">
                             <h1 class="poppins text-xs text-gray-400">CLICK HERE TO VISIT</h1>
                             <p class="text-lg font-bold">MINI VR PROJECT</p>
-                        </div>
+                        </a>
                         <div class="ml-auto self-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor" class="w-5 h-5">
@@ -119,17 +116,18 @@
                 <div class="project-card w-96 h-72">
                     <img class="rounded-t-lg w-96 object-cover h-48" src="images/NECROSIS-PORTRAIT.jpeg" alt="Unity">
                     <div class="bg-slate-700 rounded-b-lg p-5 flex">
-                        <div>
+                        <a href="https://www.therookies.co/projects/38748">
                             <h1 class="poppins text-xs text-gray-400">CLICK HERE TO VISIT</h1>
                             <p class="text-lg font-bold">NECROSIS</p>
-                        </div>
+                        </a>
                         <div class="ml-auto self-center ">
+                            <a>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor" class="w-5 h-5">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>
-
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -166,8 +164,7 @@
                         <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2024</time>
                         <h3 class=" text-lg font-semibold text-blue-400">Full Stack Development Bootcamp - 4Geeks Academy Spain
                         </h3>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web
-                            components and interactive elements built on top of Tailwind CSS.</p>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Made my first steps into web development learning Frontend and Backend skills</p>
                     </li>
                 </ol>
             </div>
@@ -177,7 +174,7 @@
         </section>
         
     </main>
-    <footer class="flex-col px-96 pt-24 poppins">
+    <footer class="flex-col px-96 pt-24 poppins" id="CONTACT">
         <div class="text-3xl font-bold">Contact</div>
         <p class="pr-80 pt-8 pb-6 text-sm font-extralight">Unity Game Developer with 2 years in experience with the engine searching new challenges in web developing, always looking new ways to improve and enjoying facing challenges in every way and searching an oportunity in web development.<br> Interested? Let's get in touch!</p>
         <div class="flex items-center gap-2">
