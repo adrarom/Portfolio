@@ -5,6 +5,9 @@
 body{
     background: #161513;
 }
+html{
+    scroll-behavior: smooth;
+}
 header,footer{
     background: #222222;
     color: rgb(255, 255, 255);

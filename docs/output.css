@@ -1312,6 +1312,10 @@ body{
   background: #161513;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 header,footer{
   background: #222222;
   color: rgb(255, 255, 255);
@@ -1434,14 +1438,6 @@ main{
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:underline:hover {
-  text-decoration-line: underline;
-}
-
-.hover\:underline-offset-2:hover {
-  text-underline-offset: 2px;
 }
 
 @media (min-width: 640px) {
